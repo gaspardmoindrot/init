@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/21 12:01:40 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/21 12:47:52 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# en0 represente l'interface Ethernet
+
+ifconfig en0
+
+# On trouve avec cette commande l'adresse du broadcast et l'adresse IP
+# Adresse IP : apres inet
+# Adresse Broadcast : apres broadcast

@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/21 11:50:19 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/21 12:01:14 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Récupérez la liste des interfaces réseau de la machine sans afficher aucun
+# détail pour ces interfaces
+
+ifconfig -l

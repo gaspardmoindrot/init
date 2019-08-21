@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/21 13:00:02 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/21 13:14:18 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# On affiche la gateway par défaut dans la table de routage
+
+netstat -rn | grep "default" | head -1
+
+# Netstat affiche des informations sur les connexions réseau et
+# les tables de routage
+# -n montre les adresse en tant que nombres. On doit utiliser cette option pour
+# les affichages
+# -r montre la table de routage

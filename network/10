@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/21 14:27:23 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/21 14:51:50 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+traceroute slash16.org
+
+# traceroute permet de savoir le chemin pris pour se connecter
+# a slash16.org depuis cet ordi

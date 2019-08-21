@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/21 15:15:55 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/21 15:17:38 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# il faut ajouter les infos au fichier /etc/hosts
+# Or, pour cela il faut les droits administrateurs
+
+En changeant le fichier cela donnerait :
+
+$> cat /etc/hosts
+127.0.0.1       localhost
+46.19.122.85	intra.42.fr
+255.255.255.255 broadcasthost
+::1             localhost
