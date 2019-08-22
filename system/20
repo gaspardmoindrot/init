@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    20                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/22 15:26:55 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/22 15:39:03 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+cat /etc/passwd | awk -F: '{print $ 1}'
+
+# tu peux faire "sudo adduser nom_utilisateur" et ca ajoutera un nouvel
+# utilisateur, tu pourras le voir en tapant de nouveau le script ci-dessus
+# "sudo deluser nom_utilisateur" pour supprimer l'utilisateur cree

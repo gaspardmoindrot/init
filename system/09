@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    09                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/22 14:22:30 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/22 14:28:42 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+who -a
+
+# T'es pas oblige de mettre -a mais ca affiche beaucoup plus d'infos
+# "who -a" correspond "who -bdlprTtu"
+# la commande 'w' marche aussi pour voir les personnes connectees sur le systeme

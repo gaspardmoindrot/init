@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/22 14:34:07 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/22 14:36:05 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+df -h
+
+# 'h' comme human
+# On peut egalement utilise "df -H" mais -H utilise des bases de 10
+# pour la taille et non pas des bases de 2

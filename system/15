@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/22 15:01:48 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/22 15:04:59 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+sudo kill $(jobs -p)
+
+# "jobs -p" permet de lister les numeros des taches des arrieres plans
+# pour ainsi les arreter avec la commande kill
+# Ca revient a faire "jobs -p", prendre le numero ecrit sur la sortie standart
+# et faire ensuite sudo kill <numero>

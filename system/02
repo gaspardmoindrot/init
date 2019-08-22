@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gmoindro <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/08/22 13:57:36 by gmoindro          #+#    #+#              #
+#    Updated: 2019/08/22 14:06:54 by gmoindro         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+sudo hostname new-hostname
+
+# si tu veux voir si le hostname est bien change tu peux taper "hostname"
+# sudo reboot, si tu veux reboot et revenir au nom precedent
+# car le new-hostname n'est pas permanent
