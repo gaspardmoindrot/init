@@ -1,0 +1,64 @@
+function header()
+{
+	clear
+	echo "\033[36m"
+	echo "                                        By gmoindro :
+
+               \\      /  -----  |     -----   |---|   ||  ||   |  |---\ 
+                \\    /   |   |  |     |       |___|   ||  | |  |  |    -
+                 \\  /    |---|  |     |  --|  |    |  ||  |  | |  |    -
+                  \\/     |   |  |___  |____|  |    |  ||  |   ||  |---/ \n\n\n"
+}
+
+function reset()
+{
+	echo "\033[32m\n"
+	rm -rf $HOME/.brew
+	git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew
+	export PATH=$HOME/.brew/bin:$PATH
+}
+
+function update()
+{
+	brew update
+        echo "export PATH=$HOME/.brew/bin:$PATH" >> ~/.zshrc
+}
+
+function install()
+{
+	brew update
+	brew install valgrind
+	alias valgrind="~/.brew/bin/valgrind"
+}
+
+function tout()
+{
+	reset
+	update
+	install
+}
+
+while :
+do
+	header
+	echo "\033[34m"
+	echo " Tapez 1 pour reset le brew (pour installer valgrind, il faut reset le brew sur les ordi de 42)"
+	echo " Tapez 2 pour update le brew"
+	echo " Tapez 3 pour installer valgrind et creer l'alias"
+	echo " Tapez 4 pour tout faire"
+	echo " Tapez 0 pour arreter et sortir du programme\n"
+	read -p $' Numero: ' -n 1 SORTI
+	case $SORTI in
+		1)
+			reset ;;
+		2)
+			update ;;
+		3)
+			install ;;
+		4)
+			tout ;;
+		0)
+			break ;;
+	esac
+done
+clear
